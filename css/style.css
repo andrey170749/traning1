@@ -4,3 +4,32 @@
 	border: 1px solid red;
 	margin: 0 auto;
 }
+header {
+	height: 92px;
+	border-bottom: 3px solid #e7e7e7;
+	background: #f3f3f3;
+	padding:28px 0 0 68px;
+}
+
+header h1 {
+	font: 40px Verdana, sans-serif;
+	color: #4b6b7f;
+	margin: 0;
+	float: left;
+	text-transform: uppercase;
+
+}
+
+header h1 span {
+	background: -webkit-gradient(linear, left bottom,left top,color-stop(0.2, #628ba4),color-stop(1, #8eb6cc));, black;
+	-webkit-background-clip: text;
+color: transparent;
+}
+header .icons {
+/*	border: 1px solid red;*/
+	float: right;
+	margin: 20px 74px 0 0;
+}
+header .icons a{
+	margin-left: 5px;
+}
