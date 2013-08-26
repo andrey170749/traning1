@@ -4,6 +4,7 @@
 	border: 1px solid red;
 	margin: 0 auto;
 }
+
 header {
 	height: 92px;
 	border-bottom: 3px solid #e7e7e7;
@@ -17,7 +18,6 @@ header h1 {
 	margin: 0;
 	float: left;
 	text-transform: uppercase;
-
 }
 
 header h1 span {
@@ -25,11 +25,18 @@ header h1 span {
 	-webkit-background-clip: text;
 color: transparent;
 }
+
 header .icons {
-/*	border: 1px solid red;*/
 	float: right;
 	margin: 20px 74px 0 0;
 }
+
 header .icons a{
 	margin-left: 5px;
+}
+
+#top_menu {
+	height: 297px;
+	border: 1px solid red;
+	background-image: url(../img/top_menu_bg1.jpg);
 }
