@@ -41,8 +41,14 @@ header .icons a{
 	rgba(189, 189, 189, 1) 58%, rgba(255, 255, 255, 1)),
 	-webkit-radial-gradient(50% 50%, circle farthest-side, rgba(245, 245, 245, 1),
  	rgba(72, 132, 168, 1));
-
 	width: 100%;
+}
+
+#top_menu_bradient_bg img {
+/*	border: 1px solid red;*/
+	position:absolute;
+	z-index:1;
+	margin: -19px 0 0 606px;
 
 }
 
@@ -65,4 +71,15 @@ header .icons a{
 #gradient_border {
 	height: 17px;
 	background: url(../img/gradient_border.jpg) repeat-x;
+}
+
+#content {
+	background: black;
+	background: #f3f3f3;
+}
+
+#content .top_part{
+	/*border:1px solid red;*/
+	height: 88px;
+	background: url(../img/top_part.jpg) no-repeat;
 }
